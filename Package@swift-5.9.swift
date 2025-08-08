@@ -57,11 +57,13 @@ let package = Package(
     [
       .library(name: "RxSwift", targets: ["RxSwift"]),
       .library(name: "RxCocoa", targets: ["RxCocoa"]),
+      .library(name: "RxCocoaRuntime", targets: ["RxCocoaRuntime"]),
       .library(name: "RxRelay", targets: ["RxRelay"]),
       .library(name: "RxBlocking", targets: ["RxBlocking"]),
       .library(name: "RxTest", targets: ["RxTest"]),
       .library(name: "RxSwift-Dynamic", type: .dynamic, targets: ["RxSwift"]),
       .library(name: "RxCocoa-Dynamic", type: .dynamic, targets: ["RxCocoa"]),
+      .library(name: "RxCocoa-Dynamic", type: .dynamic, targets: ["RxCocoaRuntime"]),
       .library(name: "RxRelay-Dynamic", type: .dynamic, targets: ["RxRelay"]),
       .library(name: "RxBlocking-Dynamic", type: .dynamic, targets: ["RxBlocking"]),
       .library(name: "RxTest-Dynamic", type: .dynamic, targets: ["RxTest"]),
